@@ -11,7 +11,7 @@
     <!-- pjax 加载valine文件 -->
     <script src="https://HEYANG11111.github.io/media/js/valine.min.js"></script>
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <meta name="description" content="绘画" />
+    <meta name="description" content="图片" />
     <meta http-equiv="x-pjax-version" content="v123">
     <title>HEYANG</title>
 </head>
@@ -69,6 +69,11 @@
     <script>let postsnum = 0;</script>
     <div id="side-posttitle" style="display: none;">
         
+    
+    绘画
+    <script>postsnum += 1</script>
+    
+    
     </div>
     <div class="pjaxloading" onclick="pjaxloadingClose()">
         <div class="loadingbackground"></div>
@@ -82,10 +87,10 @@
         <a onclick="showAaplayer()"><i style="font-size: 20px;"><img
                     src='https://HEYANG11111.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         <div class="avatar-border">
-            <img src="https://HEYANG11111.github.io/images/avatar.png?v=1617192091312" class="avatar">
+            <img src="https://HEYANG11111.github.io/images/avatar.png?v=1617273410784" class="avatar">
         </div>
         <div class="sitename">HEYANG</div>
-        <span class="describtion" data-text='["绘画"]'>&nbsp;</span>
+        <span class="describtion" data-text='["图片"]'>&nbsp;</span>
         
         <div class="search">
             <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
@@ -103,6 +108,14 @@
         
     </div>
     <div id="qq" style="display:none"></div>
+    
+    
+    <div class="mchocie describtion">
+        <a data-pjax href="https://HEYANG11111.github.io/post/hui-hua" class="menubutton">
+            图片
+        </a>
+    </div>
+    
     
     
     
@@ -351,7 +364,7 @@
                 <img src="' + talks[i].img + '" class="talkimg"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://HEYANG11111.github.io/images/avatar.png?v=1617192091312">\
+                        <img class="intro1" src="https://HEYANG11111.github.io/images/avatar.png?v=1617273410784">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -364,7 +377,7 @@
             <div class="talk" v-for="t in talks"> \
                 <div class="ainfo">\
                     <div class="ainfo-intro">\
-                        <img class="intro1" src="https://HEYANG11111.github.io/images/avatar.png?v=1617192091312">\
+                        <img class="intro1" src="https://HEYANG11111.github.io/images/avatar.png?v=1617273410784">\
                         <div class="author">' + talks[i].author + '</div>·\
                         <div class="time">' + talks[i].time + '</div>\
                     </div>\
@@ -782,6 +795,14 @@
       <ul class="nav navbar-nav">
         
         
+        <li>
+          <a data-pjax href="https://HEYANG11111.github.io/post/hui-hua">
+            图片
+          </a>
+        </li>
+        
+        
+        
           
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -825,7 +846,7 @@
                         <!-- 移动端欢迎页 -->
 <div class="welcome">
     <div class="avatar-border">
-        <img src="https://HEYANG11111.github.io/images/avatar.png?v=1617192091312" class="avatar">
+        <img src="https://HEYANG11111.github.io/images/avatar.png?v=1617273410784" class="avatar">
     </div>
     <span class="mobiledescribtion"></span>
 </div>
@@ -839,7 +860,7 @@
         bgurl = bgurl.replace("\\", "/");
     welcome.css("background", "url('" + bgurl + "')");
     var mobiledes = document.querySelector(".mobiledescribtion");
-    var text = "绘画";
+    var text = "图片";
     // 当前显示第几个字
     var mobilecharIndex = 1;
     // 每个字显示间隔默认是500毫秒
@@ -948,6 +969,30 @@
                     <link rel="stylesheet" href="https://HEYANG11111.github.io/media/css/font-awesome.css">
 <div id="post-container">
     
+    <div class="postshow postlist">
+        
+        <a data-pjax href="https://HEYANG11111.github.io/post/hui-hua/" class="apost">
+            <div id="post" style="width:100%">
+                
+                <img src="\media\images\custom-postdefaultimage.jpg" class="postimage">
+                
+            <div class="posttitlebox">
+                <div class="posttitle" >
+                绘画
+            </div>
+    </div>
+</div>
+</a>
+<div class="postinfo">
+    <div class="postdate"><i class="fa fa-calendar"></i>2021-03-31</div>
+    <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 0 min read</div>
+    <div class="posttag">
+        
+    </div>
+</div>
+
+</div>
+
 </div>
                     <div>
                         <div class="pcpagi">
