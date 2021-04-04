@@ -1,5 +1,1 @@
-{
-  "name": "live2d-widget-model-koharu",
-  "version": "1.0.5",
-  "lockfileVersion": 1
-}
+{"type":"Live2D Pose","fade_in":0,"parts_visible":[{"group":[{"id":"PARTS_01_ARM_R"},{"id":"PARTS_01_ARM_R_02"}]},{"group":[{"id":"PARTS_01_ARM_L"},{"id":"PARTS_01_ARM_L_02"}]}]}
